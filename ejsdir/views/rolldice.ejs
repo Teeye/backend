@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll-Dice</title>
+</head>
+<body>
+    <h1>
+        Dice gave value:
+        <%= dice%>
+    </h1>
+    <%  if(dice==6){ %>
+        <h2>woah! roll again</h2>
+   <%  } %> 
+   
+   <h3>Followers List: </h3> <!--this is insta.ejs code-->
+    <ul>
+     <% for
+      (let name of Followers){ %>  
+    <li> <%= name %></li>
+<% } %>
+    </ul>
+</body>
+</html>
